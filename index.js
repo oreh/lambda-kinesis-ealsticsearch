@@ -2,7 +2,7 @@ var elasticsearch = require('elasticsearch');
 var step = require('step')
 
 var client = new elasticsearch.Client({
-  host: '52.7.37.109:9200'
+  host: <ip>+':9200'
 });
 
 var es_index = ""
